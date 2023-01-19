@@ -1,5 +1,5 @@
-###################################################
 This is a control application for translation stage of TAO SiPM mass test experiment based on pyqt5
+
 1. Introduction
    requirement.txt    a list of require libs  for the app.
    stage_env          a python virtualenv, include all libs the app requires.
