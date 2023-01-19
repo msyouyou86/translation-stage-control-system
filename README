@@ -2,16 +2,15 @@ This is a control application for translation stage of TAO SiPM mass test experi
 
 1. Introduction
    requirement.txt    a list of require libs  for the app.
-   stage_env          a python virtualenv, include all libs the app requires.
    app/               a directory of python source code.
-   app/main.py        a command line entry program
-   app/newGUI.py      a mainwindow program for GUI 
-   app/newMain.py     a GUI entry program
-   app/serial_comm.py serial communication layer program
+   app/main.py        a command line entry program.
+   app/newGUI.py      a mainwindow program for GUI. 
+   app/newMain.py     a GUI entry program.
+   app/serCom.py      a serial communication layer program.
     
 
 2. How to run the application
-    . Prepare a python virtualenv or use the ready env (stage_env), if use stage_env, go to <3> directly.  
+    . Prepare a python virtualenv.  
     
     <1> To install necessary toolkits by running,  
         pip install -r requirements.txt
