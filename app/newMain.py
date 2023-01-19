@@ -6,9 +6,9 @@ import time
 from PyQt5.QtWidgets import *
 # from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from newGUI_3 import *
+from newGUI import *
 # from main_GUI import *
-from serial_comm import *
+from serCom import *
 from datetime import datetime
 from queue import Queue
 
