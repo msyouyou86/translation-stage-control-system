@@ -1,22 +1,27 @@
 ###################################################
 This is a control application for translation stage of TAO SiPM mass test experiment based on pyqt5
-1. How to run the application
+1. Introduction
+   requirement.txt    a list of require libs  for the app.
+   stage_env          a python virtualenv, include all libs the app requires.
+   app/               a directory of python source code.
+   app/main.py        a command line entry program
+   app/newGUI.py      a mainwindow program for GUI 
+   app/newMain.py     a GUI entry program
+   app/serial_comm.py serial communication layer program
+    
 
+2. How to run the application
+    . Prepare a python virtualenv
+    . Install necessary toolkits by running,  
+        pip install -r requirements.txt
+    . If setup success, then in your prepared env, you can run TS application now.
+    . For user interface one, you can run,
+        python newMain.py
+    . For terminal one, you can run,
+        python main.py
 
+3. Notice
+   . After running the app, there will be two more files in the directory.
+   . InitPos.txt            This file will be created. It records the position information after reset command.
+   . log_XXXX-XX-XX.txt     This is log file for the app. It named by date, and one day one file.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-..Version comment.. 
