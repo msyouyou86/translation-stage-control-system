@@ -11,17 +11,21 @@ This is a control application for translation stage of TAO SiPM mass test experi
     
 
 2. How to run the application
-    . Prepare a python virtualenv
-    . Install necessary toolkits by running,  
+    . Prepare a python virtualenv or use the ready env (stage_env), if use stage_env, go to <3> directly.  
+    
+    <1> To install necessary toolkits by running,  
         pip install -r requirements.txt
-    . If setup success, then in your prepared env, you can run TS application now.
-    . For user interface one, you can run,
-        python newMain.py
-    . For terminal one, you can run,
-        python main.py
+    
+    <2> If setup success, then in your prepared env, you can run TS application now.
+    
+    <3> For user interface one, you can run,
+        python app/newMain.py
+    
+    <4> For terminal one, you can run,
+        python app/main.py
 
 3. Notice
-   . After running the app, there will be two more files in the directory.
+   . After running the app, there will be two more files in the running directory.
    . InitPos.txt            This file will be created. It records the position information after reset command.
    . log_XXXX-XX-XX.txt     This is log file for the app. It named by date, and one day one file.
 
