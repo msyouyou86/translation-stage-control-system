@@ -1,6 +1,6 @@
 import time
 import sys
-from serial_comm import Communication
+from serCom import Communication
 
 
 # hft_ser = Communication("COM4", 9600)
